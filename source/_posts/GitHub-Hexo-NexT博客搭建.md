@@ -3,6 +3,7 @@ title: GitHub+Hexo+NexT博客搭建
 date: 2019-01-17 21:41:02
 tags: [GitHub, Blog]
 categories: 博客
+top: 10
 ---
 
 # 主题设置
