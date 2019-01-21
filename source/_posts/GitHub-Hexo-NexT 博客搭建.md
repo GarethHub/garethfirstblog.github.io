@@ -1,9 +1,11 @@
 ---
-title: GitHub+Hexo+NexT博客搭建
+title: GitHub+Hexo+NexT 博客搭建
 date: 2019-01-17 21:41:02
-tags: [GitHub, Blog]
+update: 2019-01-21 23:10:12
+comments: true
+tags: [GitHub, 博客]
 categories: 博客
-top: 9
+top: 10
 ---
 
 # 主题设置
@@ -26,3 +28,20 @@ avatar: url
 ```yml
 canvas_nest: true
 ```
+
+# 文章模板
+
+## Front-matter
+
+写在文章开头，用于指定个别文件变量。
+
+| 参数 | 描述 | 值 |
+|---|---|---|
+| title | 文章标题 |
+| date | 创建时间 |
+| updated | 更新时间 |
+| comments | 启用评论 | true/false |
+| tags | 设置文章标签 |
+| categories | 对文章分类 |
+| premalink | 设置文章网址格式 |
+| layout | 建立布局 |
