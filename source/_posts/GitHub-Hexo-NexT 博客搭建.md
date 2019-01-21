@@ -37,11 +37,11 @@ canvas_nest: true
 
 | 参数 | 描述 | 值 |
 |---|---|---|
-| title | 文章标题 |
-| date | 创建时间 |
-| updated | 更新时间 |
+| title | 文章标题 | |
+| date | 创建时间 | |
+| updated | 更新时间 | |
 | comments | 启用评论 | true/false |
-| tags | 设置文章标签 |
-| categories | 对文章分类 |
-| premalink | 设置文章网址格式 |
-| layout | 建立布局 |
+| tags | 设置文章标签 | |
+| categories | 对文章分类 | |
+| premalink | 设置文章网址格式 | |
+| layout | 建立布局 | |
