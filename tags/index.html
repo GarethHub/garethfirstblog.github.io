@@ -102,7 +102,7 @@
     root: '/my-first-blog/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -295,7 +295,7 @@
                 目前共计 2 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/my-first-blog/tags/Blog/" style="font-size: 12px; color: #ccc">Blog</a> <a href="/my-first-blog/tags/GitHub/" style="font-size: 12px; color: #ccc">GitHub</a>
+              <a href="/my-first-blog/tags/GitHub/" style="font-size: 12px; color: #ccc">GitHub</a> <a href="/my-first-blog/tags/博客/" style="font-size: 12px; color: #ccc">博客</a>
             </div>
           </div>
         
@@ -315,6 +315,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
 
   
 
@@ -357,7 +364,7 @@
               
                 <a href="/my-first-blog/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -442,6 +449,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -502,11 +516,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
@@ -666,5 +675,5 @@
 
   
 
-</body>
+<script src="/my-first-blog/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
